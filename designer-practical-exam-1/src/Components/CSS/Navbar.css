@@ -1,0 +1,73 @@
+img.logo {
+  height: 70px;
+  object-fit: scale-down;
+  /* margin-right: 200px; */
+  width: 400px;
+}
+nav.navbar.navbar-expand-lg.navbar-dark {
+  background-color: rgb(28, 0, 14);
+}
+a.nav-link.disabled {
+  border: 1px solid;
+  border-color: white;
+  /* border-radius: 10px; */
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+nav.navbar.navbar-expand-lg.bg-dark {
+  height: 55px;
+}
+
+.bg-dark {
+  background-color: #000000e6 !important;
+}
+
+/* a.nav-link {
+  margin-right: 4rem;
+} */
+
+/* Navbar.css */
+a.head {
+  margin-right: 40px;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+  /* Smooth transition for color changes */
+}
+
+a.head:hover {
+  color: black;
+  /* Change the text color to red on hover */
+}
+
+a.nav-link:hover {
+  color: rgba(188, 188, 188, 0.185) !important;
+}
+
+/* div#navbarNavAltMarkup {
+  display: flex;
+  justify-content: space-around;
+} */
+
+div#navbarNavAltMarkup {
+  display: flex;
+  justify-content: space-around;
+}
+
+a.nav-link {
+  margin-right: 60px;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+}
+
+/* a.nav-link {
+  margin-right: 100px;
+} */

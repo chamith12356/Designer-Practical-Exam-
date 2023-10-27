@@ -1,0 +1,68 @@
+h3 {
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+  margin: 40px 0;
+  padding-top: 50px;
+}
+
+img#nimg {
+  object-fit: cover;
+  height: 250px;
+  margin: auto;
+}
+
+h4#ntitle {
+  text-align: center;
+}
+
+p#ncard {
+  text-align: center;
+  color: #00000085;
+  font-weight: 400;
+}
+
+p#ntext {
+  text-align: center;
+}
+
+button#nbtn {
+  /* text-align: center; */
+  background-color: #000000b3;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+div#cardoffer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* Add this for the shadow effect */
+  transition: box-shadow 0.5s ease;
+  /* Add transition for smooth shadow effect */
+}
+button.btn.btn-primary {
+  width: 100px;
+}
+button#nbtn {
+  background-color: white;
+  color: #000000b3;
+  border: 1px solid black;
+  padding: 5px;
+  transition: transform 0.3s ease;
+  /* margin-left: 135px; */
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+div#cardoffer1:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* Add shadow on hover */
+}
+
+div#cardoffer1:hover button#nbtn {
+  transform: scale(1.1);
+  /* Scale up button on hover */
+}

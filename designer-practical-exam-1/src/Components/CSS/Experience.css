@@ -1,0 +1,46 @@
+div#ecard {
+  margin: 10px 0px;
+  width: 100%;
+  height: 250px;
+}
+
+img#eimg1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 5px;
+  margin: 1px;
+}
+
+p#ecardbody {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 60%;
+  text-align: center;
+  font-weight: normal;
+  /* Remove bold initially */
+  transition: transform 0.1s, font-weight 0.1s;
+  /* Add transition for smooth effect */
+}
+
+p#ecardbody:hover {
+  font-weight: bold;
+  /* Make it bold on hover */
+  transform: translateY(-50px);
+  /* Move it up by 50px on hover */
+}
+
+h2#hd {
+  margin-left: 55px;
+  font-weight: 800;
+  color: #00000099;
+}
+
+p#ph {
+  margin-left: 55px;
+  font-size: 17px;
+  font-style: italic;
+  margin-bottom: 20px;
+}

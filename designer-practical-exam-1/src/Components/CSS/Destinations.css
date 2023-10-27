@@ -1,0 +1,67 @@
+h1.desh1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 60px !important;
+  margin-top: 80px;
+  color: rgb(68, 0, 42) !important;
+  font-family: serif;
+}
+body {
+  overflow-x: hidden;
+}
+section.des {
+  margin-bottom: 30px;
+}
+select#desselect {
+  width: 40%;
+  margin: 0 auto;
+}
+img#cardddd {
+  margin-top: 70px;
+  /* width: 250px; */
+  object-fit: fill;
+  height: 400px;
+  /* position: absolute; */
+  background: #ffffff03;
+  padding: 20px;
+  font-size: 17px;
+  width: 320px;
+  box-shadow: 1px 5px 20px #9a9a9a;
+  position: absolute;
+  /* right: 18%; */
+  /* top: 140%; */
+}
+.container11 {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.dimg11 {
+  width: 600px;
+  height: 500px;
+  margin: 10px;
+}
+
+div#carddd {
+  background: #ffffff;
+  padding: 20px;
+  font-size: 17px;
+  width: 340px;
+  box-shadow: 1px 5px 20px #9a9a9a;
+  position: absolute;
+  right: 18%;
+  top: 140%;
+}
+
+h5#cti {
+  font-size: 30px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+a#btntn {
+  background-color: #000000c2;
+  border: none;
+  font-style: italic;
+}

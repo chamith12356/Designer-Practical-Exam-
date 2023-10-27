@@ -1,0 +1,277 @@
+/* Media query for mobile devices (portrait) */
+@media only screen and (max-width: 576px) {
+  .col-12.col-md-10.col-sm-10.col-lg-10.mx-auto.bg-white.shadow.p-2.rounded {
+    margin-top: -60px !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: flex-start !important;
+  }
+  section.des {
+    margin-bottom: 70px !important;
+  }
+  div#ecard {
+    /* margin: 10px 0px !important; */
+    width: 100% !important;
+    height: 250px;
+  }
+  .eimg1 {
+    width: 85%;
+  }
+
+  .dimg11 {
+    width: 100% !important;
+    margin: 0px !important;
+    padding-top: 10px !important;
+  }
+  h1.desh1 {
+    margin-top: 230px !important;
+  }
+
+  div#carddd {
+    padding: 0px !important;
+    font-size: 11px !important;
+    left: 50% !important;
+    top: 200% !important;
+    width: 150px !important;
+    height: 350px;
+  }
+  img#cardddd {
+    margin-top: 200px;
+    height: 200px !important;
+    /* position: absolute; */
+
+    padding: 20px !important;
+    right: 50% !important;
+    width: 120px !important;
+  }
+
+  img.logo {
+    width: auto !important;
+  }
+  .carousel-caption.text-center {
+    margin-bottom: 0px !important;
+  }
+  li.ii {
+    margin-left: 70px !important;
+  }
+  li.iin {
+    margin-left: 70px !important;
+  }
+  h2#hd {
+    margin-left: 0px !important;
+  }
+  p#ph {
+    margin-left: 0px !important;
+  }
+  .headerfirst {
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+  .header {
+    margin: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  img#footer-img1 {
+    height: 1300px !important;
+  }
+
+  a.head {
+    margin-right: 2px;
+  }
+
+  nav.navbar.navbar-expand-lg {
+    height: auto;
+  }
+
+  div#cardoffer1 {
+    margin: 20px 0px;
+  }
+
+  img#footer-img1 {
+    max-height: 1300px;
+  }
+
+  .footersection {
+    height: auto;
+  }
+
+  /* Specific styles for portrait orientation */
+
+  .carousel-caption.text-center {
+    margin-bottom: 400px;
+  }
+
+  .car {
+    margin-left: 20px;
+  }
+
+  .body {
+    overflow: auto;
+  }
+
+  input.dd.form-control {
+    width: 170px !important;
+  }
+
+  button.btn.btn-primary.shadow-none {
+    width: 170px !important;
+  }
+}
+
+/* Media query for tablets (landscape and portrait) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .col-12.col-md-10.col-sm-10.col-lg-10.mx-auto.bg-white.shadow.p-2.rounded {
+    margin-top: -120px !important;
+  }
+
+  /* Your CSS rules for screens between 576px and 768px */
+  div#ecard {
+    margin: 10px 0px !important;
+    width: 100%;
+  }
+  input#input {
+    margin-left: 0px !important;
+  }
+  .col-lg-2.mb-3 {
+    margin-left: 10px !important;
+  }
+  .header {
+    display: flex;
+    justify-content: left;
+  }
+
+  div#carddd {
+    right: -1% !important;
+  }
+
+  h2#hd {
+    margin-top: 30px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a.head {
+    margin-right: 2px;
+  }
+
+  nav.navbar.navbar-expand-lg.bg-dark {
+    height: auto;
+  }
+
+  div#cardoffer1 {
+    margin: 20px 0px;
+  }
+
+  img#footer-img1 {
+    height: 560px;
+  }
+
+  li.ii {
+    margin-left: 80px !important;
+  }
+  li.iin {
+    margin-left: 50px !important;
+  }
+  ul.lu {
+    margin-left: -70px;
+  }
+  li.nav-item {
+    height: 40px !important;
+  }
+
+  a.nav-link {
+    margin: 0px 20px !important;
+  }
+
+  p.lp {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  li.iin {
+    margin-left: 0px;
+  }
+
+  .footersection {
+    height: auto;
+  }
+
+  /* Specific styles for landscape orientation */
+  button#nbtn {
+    margin-left: 30px;
+  }
+
+  div#ecard {
+    margin: 10px;
+    width: auto;
+    height: 250px;
+  }
+
+  div#cardoffer1 {
+    height: 550px;
+  }
+
+  .carousel-caption.text-center {
+    margin-bottom: 200px;
+  }
+
+  .dimg11 {
+    width: 450px !important;
+  }
+
+  img#nimg {
+    object-fit: cover;
+    margin: auto;
+    height: 120px;
+  }
+
+  button#nbtn {
+    margin-left: 10px !important;
+  }
+}
+
+/* Media query for smaller screens (max-width: 300px) */
+
+/* Media query for screens with a width of 992px */
+@media only screen and (min-width: 993px) and (max-width: 1400px) {
+  div#carddd {
+    right: 0% !important;
+    height: 350px;
+    position: static;
+  }
+
+  #ecard {
+    width: 270px !important;
+  }
+  .col-lg-2.mb-3 {
+    margin-left: 20px;
+  }
+
+  .headerfirst {
+    font-size: 14px;
+  }
+
+  div#ecard {
+    /* width: 300px !important; */
+    margin-bottom: 15px;
+  }
+
+  button#nbtn {
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  img#nimg {
+    height: 150px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px !important;
+    margin-right: 30px !important;
+  }
+}
